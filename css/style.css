@@ -5,99 +5,86 @@
 
 
 
-
-
-
-
-
 /*hero section*/
 
 .jumbotron{
 
     display: flex;
    position: relative;
-    top: 40px;
-    align-items: center;
-
-    
+    top: 40px;  
 }
 
+ .hero-container{
+         display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
 
 .portfolio-image{
     
-    display: flex;
-    right: 1100px;
-    
+    display: flex;  
 }
 
 /*boxes*/
 
 .boxes{
     margin-top: 100px;
-
-    
-    
+position: relative;
+     
 }
 
 .text{
    
-    margin-left: 40px;
-    
-    
+    margin-left: 40px; 
 }
+
+
 .vertical-line{
     border-left: 10px solid lightseagreen;
     position: absolute;
-    left: 150px;
+    left: 160px;
     height: 100px;
 
      }
 
-    .container{
-        display: flex;
-        flex-direction: column;
-       
-    }
-
+  
+   
 
     /*work section*/
 
 #work{
     margin-left: -20px;
-    
-    
-    
+     
 }
 
 
 
     /*cards*/
     .card{
-        margin: 15px;
+            
+   display: flex; 
+    flex-direction: column; 
+     width:100%; 
+     height: 380px;   
+     padding: 1%;
+     margin-bottom: 10px;
         
     }
 
-    .container-cards{
-        margin-left: 210px;
+    
+     .container-cards .row{ 
         margin-top: -50px;
+      margin-left: 220px;
          
-    }
+    } 
 
     .card-title{
         text-align: center;
        padding: 7px;
+       
     }
 
-    .card-text{
-        text-align: center;
-        padding: 0 7px;
-        margin: 8px;
-        
-        
-    }
-
-
-
+ 
 #skills{
     margin-left: -20px;
     
@@ -105,15 +92,16 @@
 
 
 .h4{
-    position: absolute;
-    display: flex;
-        left: 200px;
+   
+        margin-left: 220px;
+        position: relative;
+    top: 110px; 
 }
 
 
 #about-me{
     margin-left: -20px;
-    
+
 }
 
 #contact{
@@ -122,10 +110,12 @@
 }
 
 .contact-me{
-    position: absolute;
+    
     display: flex;
-     left: 200px;
      font-size: 20px;
+      margin-left: 220px;
+     position: relative;
+    top: 70px; 
 }
 .email{
     margin: 10px;
